@@ -4,9 +4,9 @@
   "tag-separator": "@",
   "separate-pull-requests": true,
   "packages": {
-    "hello-react": {
-      "path": "hello-react",
-      "release-type": "node"
+    "goodbye-rust": {
+      "path": "goodbye-rust",
+      "release-type": "rust"
     },
     "hello-rust": {
       "path": "hello-rust",

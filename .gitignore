@@ -20,3 +20,6 @@ target/
 /.vscode/
 /*.iml
 *.orig
+
+# Other
+.release-please-github-token.secret
