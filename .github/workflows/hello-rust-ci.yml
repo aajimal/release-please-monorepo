@@ -17,9 +17,9 @@ jobs:
         uses: clechasseur/rs-cargo@v2
         with:
           command: test
-          args: --verbose --manifest-path hello-rust/Cargo.toml
+          args: --verbose --manifest-path crates/hello-rust/Cargo.toml
       - name: Build
         uses: clechasseur/rs-cargo@v2
         with:
           command: build
-          args: --verbose --release --manifest-path hello-rust/Cargo.toml
+          args: --verbose --release --manifest-path crates/hello-rust/Cargo.toml

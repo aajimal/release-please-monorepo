@@ -5,12 +5,20 @@
   "separate-pull-requests": true,
   "packages": {
     "goodbye-rust": {
-      "path": "goodbye-rust",
+      "path": "crates/goodbye-rust",
       "release-type": "rust"
     },
+    "goodbye-helm": {
+      "path": "helm/goodbye-chart",
+      "release-type": "helm"
+    },
     "hello-rust": {
-      "path": "hello-rust",
+      "path": "crates/hello-rust",
       "release-type": "rust"
+    },
+    "hello-helm": {
+      "path": "helm/hello-chart",
+      "release-type": "helm"
     }
   },
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
