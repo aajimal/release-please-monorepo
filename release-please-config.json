@@ -9,7 +9,7 @@
       "release-type": "rust"
     },
     "goodbye-helm": {
-      "path": "helm/goodbye-chart",
+      "path": "charts/goodbye-chart",
       "release-type": "helm"
     },
     "hello-rust": {
@@ -17,7 +17,7 @@
       "release-type": "rust"
     },
     "hello-helm": {
-      "path": "helm/hello-chart",
+      "path": "charts/hello-chart",
       "release-type": "helm"
     }
   },
