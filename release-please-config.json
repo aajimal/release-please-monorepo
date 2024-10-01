@@ -19,11 +19,13 @@
       "changelog-path": "charts/goodbye-helm/CHANGES.txt"
     },
     "crates/hello-rust": {
+      "package-name": "hello-rust",
       "plugins": ["cargo-workspace"],
       "path": "crates/hello-rust",
       "release-type": "rust"
     },
     "charts/hello-helm": {
+      "package-name": "hello-helm",
       "path": "charts/hello-helm",
       "release-type": "helm"
     }
