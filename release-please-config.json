@@ -3,20 +3,27 @@
   "include-v-in-tag": true,
   "tag-separator": "@",
   "separate-pull-requests": true,
+  "draft": true,
   "packages": {
-    "goodbye-rust": {
+    "crates/goodbye-rust": {
+      "plugins": ["cargo-workspace"],
+      "package-name": "rust-goodbye",
       "path": "crates/goodbye-rust",
-      "release-type": "rust"
+      "release-type": "rust",
+      "changelog-path": "crates/goodbye-rust/CHANGES.rst"
     },
-    "goodbye-helm": {
+    "charts/goodbye-helm": {
+      "package-name": "helm-goodbye",
       "path": "charts/goodbye-helm",
-      "release-type": "helm"
+      "release-type": "helm",
+      "changelog-path": "charts/goodbye-helm/CHANGES.txt"
     },
-    "hello-rust": {
+    "crates/hello-rust": {
+      "plugins": ["cargo-workspace"],
       "path": "crates/hello-rust",
       "release-type": "rust"
     },
-    "hello-helm": {
+    "charts/hello-helm": {
       "path": "charts/hello-helm",
       "release-type": "helm"
     }
