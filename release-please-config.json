@@ -1,6 +1,6 @@
 {
   "pull-request-header": "Release created",
-  "pull-request-footer": "Enjoy"
+  "pull-request-footer": "Enjoy",
   "include-component-in-tag": true,
   "include-v-in-tag": true,
   "tag-separator": "@",
