@@ -11,14 +11,12 @@
       "plugins": ["cargo-workspace"],
       "package-name": "rust-goodbye",
       "path": "crates/goodbye-rust",
-      "release-type": "rust",
-      "changelog-path": "crates/goodbye-rust/CHANGES.rst"
+      "release-type": "rust"
     },
     "charts/goodbye-helm": {
       "package-name": "helm-goodbye",
       "path": "charts/goodbye-helm",
-      "release-type": "helm",
-      "changelog-path": "charts/goodbye-helm/CHANGES.txt"
+      "release-type": "helm"
     },
     "crates/hello-rust": {
       "package-name": "hello-rust",
