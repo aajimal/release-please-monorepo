@@ -8,7 +8,9 @@
   "draft": true,
   "packages": {
     "crates/goodbye-rust": {
-      "plugins": ["cargo-workspace"],
+      "plugins": [
+        "cargo-workspace"
+      ],
       "package-name": "rust-goodbye",
       "path": "crates/goodbye-rust",
       "release-type": "rust",
@@ -22,7 +24,9 @@
     },
     "crates/hello-rust": {
       "package-name": "hello-rust",
-      "plugins": ["cargo-workspace"],
+      "plugins": [
+        "cargo-workspace"
+      ],
       "path": "crates/hello-rust",
       "release-type": "rust"
     },
@@ -30,6 +34,13 @@
       "package-name": "hello-helm",
       "path": "charts/hello-helm",
       "release-type": "helm"
+    },
+    ".": {
+      "changelog-path": "CHANGELOG.md",
+      "bump-minor-pre-major": false,
+      "bump-patch-for-minor-pre-major": false,
+      "draft": false,
+      "prerelease": false
     }
   },
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
