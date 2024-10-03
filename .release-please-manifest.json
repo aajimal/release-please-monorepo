@@ -1,7 +1,7 @@
 {
   ".": "0.0.0",
-  "crates/goodbye-rust": "0.3.0",
-  "charts/goodbye-helm": "1.0.2",
-  "crates/hello-rust": "0.3.0",
-  "charts/hello-helm": "1.0.2"
+  "crates/goodbye-rust": "0.4.0",
+  "charts/goodbye-helm": "1.0.3",
+  "crates/hello-rust": "0.4.0",
+  "charts/hello-helm": "1.0.3"
 }
