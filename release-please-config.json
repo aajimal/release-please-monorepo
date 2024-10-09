@@ -5,8 +5,6 @@
   "separate-pull-requests": false,
   "draft": true,
   "prerelease": true,
-  "plugins": ["cargo-workspace"],
-  "release-type": "rust",
   "packages": {
     "crates/hello-rust": {
       "path": "crates/hello-rust",
