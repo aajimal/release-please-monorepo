@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.1.0 (2024-10-09)
+
+
+### Features
+
+* add charts ([ffb8e4e](https://github.com/aajimal/release-please-monorepo/commit/ffb8e4ec9faa4d8d168d9407047e9d1d14a4c6d2))
+
+
+### Bug Fixes
+
+* add ([#36](https://github.com/aajimal/release-please-monorepo/issues/36)) ([82e189e](https://github.com/aajimal/release-please-monorepo/commit/82e189e41a95557f8eb6e50d137a27cacee80c20))
+
 ## 0.1.0 (2024-10-02)
 
 
