@@ -5,21 +5,14 @@
   "separate-pull-requests": false,
   "draft": true,
   "prerelease": true,
+  "plugins": ["cargo-workspace"],
+  "release-type": "rust",
   "packages": {
-    ".": {
-      "release-type": "rust"
-    },
     "crates/hello-rust": {
-      "package-name": "hello-rust",
-      "plugins": ["cargo-workspace"],
-      "path": "crates/hello-rust",
-      "release-type": "rust"
+      "path": "crates/hello-rust"
     },
     "crates/goodbye-rust": {
-      "plugins": ["cargo-workspace"],
-      "package-name": "rust-goodbye",
-      "path": "crates/goodbye-rust",
-      "release-type": "rust"
+      "path": "crates/goodbye-rust"
     }
   },
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
