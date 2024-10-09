@@ -1,4 +1,4 @@
 {
   "crates/hello-rust": "0.2.0",
-  "crates/goodbye-rust": "0.2.0"
+  "crates/goodbye-rust": "0.2.1"
 }
