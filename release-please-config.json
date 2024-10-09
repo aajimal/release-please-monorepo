@@ -9,10 +9,14 @@
   "release-type": "rust",
   "packages": {
     "crates/hello-rust": {
-      "path": "crates/hello-rust"
+      "path": "crates/hello-rust",
+      "plugins": ["cargo-workspace"],
+      "release-type": "rust"
     },
     "crates/goodbye-rust": {
-      "path": "crates/goodbye-rust"
+      "path": "crates/goodbye-rust",
+      "plugins": ["cargo-workspace"],
+      "release-type": "rust"
     }
   },
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
