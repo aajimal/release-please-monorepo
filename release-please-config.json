@@ -10,7 +10,7 @@
   "pull-request-title-pattern": "chore${scope}: release${component} ${version}",
   "pull-request-header": "Release created",
   "prerelease-type": "pre",
-  "changelog-type": "github",
+  "changelog-type": "default",
   "changelog-sections": [
     { "type": "feat", "section": "Features", "hidden": false },
     { "type": "fix", "section": "Bug Fixes" },
@@ -22,11 +22,13 @@
   ],
   "packages": {
     "crates/hello-rust": {
+      "package-name": "hello",
       "path": "crates/hello-rust",
       "plugins": ["cargo-workspace"],
       "release-type": "rust"
     },
     "crates/goodbye-rust": {
+      "package-name": "goodbye",
       "path": "crates/goodbye-rust",
       "plugins": ["cargo-workspace"],
       "release-type": "rust"
