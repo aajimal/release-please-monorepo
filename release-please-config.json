@@ -4,7 +4,22 @@
   "tag-separator": "@",
   "separate-pull-requests": false,
   "draft": true,
+  "draft-pull-request": true,
   "prerelease": true,
+  "group-pull-request-title-pattern": "chore: release ${version}",
+  "pull-request-title-pattern": "chore${scope}: release${component} ${version}",
+  "pull-request-header": "Release created",
+  "prerelease-type": "pre",
+  "changelog-type": "github",
+  "changelog-sections": [
+    { "type": "feat", "section": "Features", "hidden": false },
+    { "type": "fix", "section": "Bug Fixes" },
+    { "type": "docs", "section": "Documentation" },
+    { "type": "chore", "section": "Miscellaneous Chores" },
+    { "type": "refactor", "section": "Code Refactoring" },
+    { "type": "test", "section": "Tests" },
+    { "type": "ci", "section": "Continuous Integration" }
+  ],
   "packages": {
     "crates/hello-rust": {
       "path": "crates/hello-rust",
