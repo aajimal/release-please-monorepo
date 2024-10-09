@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/aajimal/release-please-monorepo/compare/goodbye_rust@v0.2.0...goodbye_rust@v0.2.1) (2024-10-09)
+
+
+### Bug Fixes
+
+* update goodbye-rust ([#46](https://github.com/aajimal/release-please-monorepo/issues/46)) ([0e4fdd5](https://github.com/aajimal/release-please-monorepo/commit/0e4fdd596d603f370ac7763a321403a01ed1b454))
+
 ## [0.2.0](https://github.com/aajimal/release-please-monorepo/compare/goodbye_rust-v0.1.0...goodbye_rust@v0.2.0) (2024-10-09)
 
 
