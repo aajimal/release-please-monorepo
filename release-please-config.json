@@ -11,13 +11,11 @@
   "changelog-type": "default",
   "packages": {
     "crates/hello-rust": {
-      "package-name": "hello",
       "path": "crates/hello-rust",
       "plugins": ["cargo-workspace"],
       "release-type": "rust"
     },
     "crates/goodbye-rust": {
-      "package-name": "goodbye",
       "path": "crates/goodbye-rust",
       "plugins": ["cargo-workspace"],
       "release-type": "rust"
