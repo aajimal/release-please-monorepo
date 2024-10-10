@@ -3,13 +3,11 @@
   "include-v-in-tag": true,
   "tag-separator": "@",
   "separate-pull-requests": false,
-  "draft-pull-request": true,
-  "draft": true,
-  "prerelease": false,
+  "draft-pull-request": false,
+  "draft": false,
   "group-pull-request-title-pattern": "chore: release ${version}",
   "pull-request-title-pattern": "chore${scope}: release${component} ${version}",
   "pull-request-header": "Release created",
-  "prerelease-type": "beta",
   "changelog-type": "default",
   "packages": {
     "crates/hello-rust": {
